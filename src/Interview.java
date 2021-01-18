@@ -15,7 +15,9 @@ public class Interview {
                 "Difference between final and finally keywords", "Difference between Arrays and ArrayList",
                 "What is difference between Verification and Validation",
                 "Please give examples for high severity low priority and low severity high priority defect",
-                "What is the difference between re testing and regression testing", "How to find all links in a webpage"));
+                "What is the difference between re testing and regression testing", "How to find all links in a webpage", "What is your biggest Accomplishment?",
+                "Where do you see yourself 5 years from now?",
+                "Why we test?","What is positive testing?", "Happy Path testing?"));
         System.out.println(questions.get(rnd.nextInt(questions.size())) + "===>" + codeBreakers.get(rnd.nextInt(codeBreakers.size())));
 
     }
